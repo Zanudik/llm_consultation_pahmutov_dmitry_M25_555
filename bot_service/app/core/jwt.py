@@ -1,7 +1,7 @@
 """
 Проверка JWT-токена (только валидация, без создания).
 """
-from jose import jwt, JWTError, ExpiredSignatureError
+from jose import jwt
 
 from app.core.config import settings
 

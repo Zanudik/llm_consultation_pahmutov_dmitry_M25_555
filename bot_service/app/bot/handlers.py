@@ -28,7 +28,7 @@ async def cmd_token(message: Message):
 
     # Проверяем, что токен валидный
     try:
-        payload = decode_and_validate(token)
+        _ = decode_and_validate(token)
     except ExpiredSignatureError:
         await message.answer("Токен истёк. Получите новый в Auth Service.")
         return
