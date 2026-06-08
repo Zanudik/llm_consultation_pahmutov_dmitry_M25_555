@@ -125,8 +125,8 @@ llm-consultation/
 ├── auth_service/
 │   ├── app/
 │   │   ├── api/            # Роутеры и зависимости
-│   │   ├── core/           # Конфигурация, JWT, исключения
-│   │   ├── db/             # Модели, сессии
+│   │   ├── core/           # Конфигурация,
+│   │   ├── db/             # Модели
 │   │   ├── repositories/   # Доступ к данным
 │   │   ├── schemas/        # Pydantic-схемы
 │   │   ├── tests/          # Тесты
@@ -135,8 +135,8 @@ llm-consultation/
 ├── bot_service/
 │   ├── app/
 │   │   ├── bot/            # Telegram handlers и dispatcher
-│   │   ├── core/           # Конфигурация, JWT-проверка
-│   │   ├── infra/          # Redis, Celery
+│   │   ├── core/           # Конфигурация
+│   │   ├── infra/          # Redis
 │   │   ├── services/       # OpenRouter клиент
 │   │   ├── tasks/          # Celery-задачи
 │   │   └── tests/          # Тесты
@@ -152,8 +152,8 @@ llm-consultation/
 ![Регистрация](auth_register_2.png)
 
 2. Логин
-![Логин](auth_login.png)
-![Логин](auth_login.png)
+![Логин](auth_login_1.png)
+![Логин](auth_login_2.png)
 
 3. Профиль пользователя
 ![Профиль](auth_me.png)
