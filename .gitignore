@@ -1,19 +1,21 @@
-# Конфиденциальные файлы
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+.venv
+
+# Файл с секретами и токенами
 .env
 
-# Базы данных
+# База данных SQLite (может содержать личные данные)
 *.db
 
-# Кеш ruff
+# Кеш линтера ruff
 .ruff_cache/
-
-# Кеш Python
-__pycache__/
-*.pyc
-*.pyo
-
-# Виртуальное окружение
-.venv/
 
 # Системные файлы
 .DS_Store

@@ -148,27 +148,27 @@ llm-consultation/
 
 ## Демонстрация работы
 1. Регистрация пользователя
-![Регистрация](auth_register_1.png)
-![Регистрация](auth_register_2.png)
+![Регистрация](screenshots/auth_register_1.png)
+![Регистрация](screenshots/auth_register_2.png)
 
 2. Логин
-![Логин](auth_login_1.png)
-![Логин](auth_login_2.png)
+![Логин](screenshots/auth_login_1.png)
+![Логин](screenshots/auth_login_2.png)
 
 3. Профиль пользователя
-![Профиль](auth_me.png)
+![Профиль](screenshots/auth_me.png)
 
 4. Передача токена Telegram-боту
-![Передача](telegram_token.png)
+![Передача](screenshots/telegram_token.png)
 
 5. Запрос к LLM и ответ
-![Запрос](telegram_chat.png)
+![Запрос](screenshots/telegram_chat.png)
 
 6. RabbitMQ — очереди Celery
-![RabbitMQ](rabbitmq.png)
+![RabbitMQ](screenshots/rabbitmq.png)
 
 7. Тесты Auth Service
-![Тесты](tests_auth.png)
+![Тесты](screenshots/tests_auth.png)
 
 8. Тесты Bot Service
-![Тесты](tests_bot.png)
+![Тесты](screenshots/tests_bot.png)
